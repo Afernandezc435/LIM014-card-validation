@@ -23,6 +23,15 @@ text-align: center;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.h1 {
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: medium;
+text-align: justify;
+margin: auto;
+
+}
+
 .footer {
 position: fixed;
 left: 0;
