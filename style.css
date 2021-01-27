@@ -79,7 +79,7 @@ text-align: center;
 .card-type {
     width: 80px;
     height: 56px;
-    background: url("../images/cards.png");
+    background: url("./images/cards.png");
     background-position: 0 -291px;
     background-repeat: no-repeat;
     position: absolute;
