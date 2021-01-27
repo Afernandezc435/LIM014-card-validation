@@ -3,35 +3,57 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-     background:url(./images/abstract1.jpg);
-     background-repeat: no-repeat;
-     
+    background: url(./images/abstract1.jpg);
+    background-repeat: no-repeat;
 }
- 
+
 span {
-color: black;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: 400;
-text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
 }
 
 button {
-background-color: aquamarine;
-border:0ch;
-color:black;
-text-align: center;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+}
+
+button:hover {
+    background-color: rgb(76, 185, 149)
+}
+
+button:active {
+    background-color: rgb(76, 185, 149);
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+h1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
 }
 
 .footer {
-position: fixed;
-left: 0;
-bottom: 0ch;
-width: 100%;
-color: black;
-text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0ch;
+    width: 100%;
+    color: black;
+    text-align: center;
 }
-
 
 .hidden {
     display: none;
@@ -157,7 +179,6 @@ text-align: center;
 .card-error::after {
     transform: rotate(-45deg)
 }
-
 
 .card-details {
     width: 100%;
