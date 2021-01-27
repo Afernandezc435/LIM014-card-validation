@@ -3,12 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
+
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+      <span>Número de tarjeta:</span>
+        <div id="card" class="card-type"></div>
+        <!--En esta caja el usuario va a ingresar el número de su tarjeta-->
+        <input id="card-number" placeholder="0000 0000 0000 0000" onkeyup="maskify(event)" />
+        <!--Esta es la segunda caja que voy a usar encima de la anterior para poder enmascarar-->
+        <input id="card-number-hide" hidden />
+        <!--Estos son para el botón de validar-->
+        <div id="result" class="card-valid"></div>
+    <div class="card-details clearfix">
+      <div class="validate">
+        <button value="Validar" id="bbt" >Validar</button>
+      </div>
+  </div>
+    <footer>
+      Copyright (c) Ana Fernandez 2021
+    </footer>
+    <script src="./index.js" type="module" ></script>
   </body>
 </html>

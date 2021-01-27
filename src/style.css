@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+     background:url(./images/abstract1.jpg);
+     background-repeat: no-repeat;
+     
+}
+ 
+span {
+color: black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 400;
+text-align: center;
+}
+
+button {
+background-color: aquamarine;
+border:0ch;
+color:black;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0ch;
+width: 100%;
+color: black;
+text-align: center;
+}
